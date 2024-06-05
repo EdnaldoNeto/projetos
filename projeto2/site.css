@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+body {
+    background-color:  rgba(0, 26, 255, 0.39);
+}
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient( to bottom,rgba(0, 17, 255, 0.623), rgb(0, 26, 255));
+    margin: -8px;
+    padding: 15px;
+}
+
+#p_subtitulo {
+    text-align: center;
+    align-items: center;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+#conteudo_principal {
+    background-color: white;
+    margin: -15px 220px;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+#container1{
+    display: flex;
+    justify-content: center;
+}
+
+#luka {
+    max-width:100%px;
+    height: auto;   
+}
+
+#container2{
+    display: flex;
+    justify-content: center;
+}
+
+#rodape{
+    background-color: black;
+    color: white;
+
+    text-align: center;
+
+    height: 1;
+    width: 1;
+}

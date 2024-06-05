@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgba(72, 7, 116, 0.26);
+    font-size: 17px;
+    color: black;
+}
+
+#titulo_principal {
+    text-align: center;
+    background-color: rgba(68, 68, 112, 0.795);
+    height: 110px;
+    width:auto;
+
+}
+
+div{
+    position: relative;
+    right: 90px;
+    bottom: 50px; 
+    text-align: left;
+    background-color:  rgb(255, 255, 255);
+
+    margin: 90px;
+}
+
+#imagem_tux{
+    position: relative;
+    left: 775px;
+    bottom: 230px;
+    height: 150px;
+}
+
+footer{
+    position: fixed ;
+    bottom:5px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-color:rgb(118, 123, 170) ;
+    border-style: solid;
+    border-width: 2px;
+    margin: 40px;
+}
+
+
+    
