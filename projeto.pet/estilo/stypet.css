@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+:root {
+    --cor0: #6393A6;
+    --cor1: #BF785E;
+    --cor2: #F2CBBD;
+    --cor3: #A65B4B;
+    --cor4: #733B36;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: white;
+}
+
+header {
+
+}
+
+header > div > p {
+    background-color: var(--cor2);
+    height: 100px;
+}
+
+main {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+        
+}
+
+main > div.square {
+    background-color: var(--cor0) ;
+    display: inline-block;
+    height: 225px;
+    width: 225px;
+    margin: 20px 40px;
+    border: 2px solid rgba(0, 0, 0, 0.445);
+    border-radius: 5px;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.425);
+}
+
+main > div.square:hover {
+    background-color: #6393a681;
+}
