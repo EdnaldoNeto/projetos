@@ -30,13 +30,20 @@ header > h1#frase_top {
     display: flex;
     align-items: center;
     width: 800px;
-    margin: auto;
+    margin: 20px auto;
+    border: 2px solid rgba(0, 0, 0, 0.356);
+    border-radius: 0px 25px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.336);
+}
+
+div#container1 > h1 {
+    text-align: center;
 }
 
 #imagem_cachorro {
     width: 300px;
     height: 300px;
-    margin-right: 70px;
+    margin-right: 45px;
 }
 
 nav {
