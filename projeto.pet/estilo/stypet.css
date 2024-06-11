@@ -17,13 +17,30 @@ body{
     background-color: white;
 }
 
-header > h1#frase_top {
-    background-color: var(--cor2);
+header > h2#frase_top {
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor1));
     height: 45px;
     text-align: center;
     border: 1px solid rgba(0, 0, 0, 0.397);
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.288);
 }
+
+nav {
+    background-color: var(--cor1) ;
+    padding: 12px;
+}
+
+nav > a {
+    color: black;
+    text-decoration: none;
+    padding: 12px;
+    border: 5px;
+}
+
+nav > a:hover {
+    background-color: var(--cor0);
+    color: white;
+} 
 
 #container1 {
     background-color: var(--cor0);
@@ -45,22 +62,5 @@ div#container1 > h1 {
     height: 300px;
     margin-right: 45px;
 }
-
-nav {
-    background-color: var(--cor1) ;
-    padding: 12px;
-}
-
-nav > a {
-    color: black;
-    text-decoration: none;
-    padding: 12px;
-    border: 5px;
-}
-
-nav > a:hover {
-    background-color: var(--cor0);
-    color: white;
-} 
 
 
