@@ -3,6 +3,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
 
+@font-face {
+    font-family: 'Dog';
+    src: url(../fontes/PuppyBellies.ttf);
+    font-weight: normal;
+}
+
 :root {
     --cor0: #4F5F73;
     --cor1: #F2F2F2;
@@ -10,7 +16,8 @@
     --cor3: #CCC4C0;
     --cor4: #8C4B45;
 
-    --fonte-padrao: 'Lexend Deca', sans-serif
+    --fonte-padrao: 'Lexend Deca', sans-serif;
+    --fonte-dog: 'Dog', sans-serif;
 }
 
 * {
@@ -28,6 +35,8 @@ header > h2#frase_top {
     text-align: center;
     border: 1px solid rgba(0, 0, 0, 0.397);
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.288);
+    font-family: var(--fonte-dog);
+    padding-top: 5px;
 }
 
 nav {
@@ -60,6 +69,7 @@ nav > a:hover {
 
 div#container1 > h1 {
     text-align: center;
+    font-family: var(--fonte-dog);
 }
 
 #imagem_cachorro {
@@ -72,6 +82,16 @@ main {
     max-width: 1050px;
     min-width: 400px;
     margin: auto;
+}
+
+main > h2 {
+    font-family: var(--fonte-dog);
+    line-height: 2em;
+}
+
+main > h3 {
+    font-family: var(--fonte-dog);
+    line-height: 2em;
 }
 
 main > p.conteudo_paragrafo {
