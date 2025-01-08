@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    background-image: linear-gradient(120deg, #21362F, #384626);
+    max-width: 1250px;
+    margin: auto;
+    height: 100px;
+}
+
+header > h1{
+    position: relative;
+    top: 30px;
+    left: 40px;
+    color: white;
+    display: flex;
+}
+
+nav{
+    position: relative;
+    left: 360px;
+    display: flex;
+}
+
+#pesquisar{
+    position: relative;
+    right: 100px;
+    bottom: 13px;
+    height: 40px;
+    width: 500px;
+    font-size: 16px;
+    text-indent: 20px;
+}
+
+header > nav > button {
+    position: relative;
+    right: 200px;
+    bottom: 7px;
+    height: 30px;
+    width: 90px;
+    background-color: #38462e;
+}
+
+header > nav > button:hover{
+    background-color: #38462edf;
+    cursor: pointer;
+}
+
+#iconS{
+    color: white;
+}
+
+header > nav > ul {
+    position: relative;
+    right: 100px;
+    display: flex;
+}
+
+header > nav > ul > li {
+    margin-right: 50px;
+    color: white;
+    list-style: none;
+    font-size: 18px;
+}
+
+main{}
+
+main  > section{
+    display: flex;
+    position: relative;
+    max-width: 900px;
+    margin: auto;
+}
+
+main > section > .caixaInf{ 
+    width: 210px;
+    height: 170px;
+    margin: 30px auto 20px auto;
+    box-shadow: 3px 2px 3px 2px rgba(0, 0, 0, 0.118);
+    background-color: white;
+    border-radius: 5px 5px 5px 5px ;
+    text-align: center;
+}
+
+footer{
+    max-width: 1250px;
+    margin: auto;
+    background-color: #DBD092;
+    text-align: center;
+}
+
+footer > p{
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 20px;
+}
