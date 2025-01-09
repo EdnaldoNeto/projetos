@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    background-image: linear-gradient(120deg, #21362F, #384626);
+    background-image: linear-gradient(to bottom, #21362F, #384626);
     max-width: 1250px;
     margin: auto;
     height: 100px;
@@ -75,23 +75,70 @@ header > nav > ul > li {
     font-size: 18px;
 }
 
-main{}
+main{
+    background-image: linear-gradient(to bottom,#384626 40%, white);
+}
 
 main  > section{
     display: flex;
-    position: relative;
     max-width: 900px;
     margin: auto;
 }
 
 main > section > .caixaInf{ 
     width: 210px;
-    height: 170px;
+    height: 190px;
     margin: 30px auto 20px auto;
     box-shadow: 3px 2px 3px 2px rgba(0, 0, 0, 0.118);
     background-color: white;
     border-radius: 5px 5px 5px 5px ;
     text-align: center;
+    font-size: 18px;
+}
+
+.icones{
+    position: relative;
+    top: 20px;
+    margin: auto;
+    display: block;
+    height: 70px;
+}
+
+main > section > .caixaInf > p{
+    margin-top: 28px;
+    font-weight: 700;
+}
+
+.categoria{
+    background-color: white;
+    margin: auto;
+    width: 1300px;
+    height: 50px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.categoria > h3{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    font-size: 25px;
+}
+
+.produtos{
+    background-color: white;
+    min-width: 1300px;
+    height: 440px;
+    margin-bottom: 50px;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.produto{
+    position: relative;
+    background-color: wheat;
+    height: 350px;
+    margin: 30px 5px 0px 15px ;
+    min-width: 300px;
 }
 
 footer{
