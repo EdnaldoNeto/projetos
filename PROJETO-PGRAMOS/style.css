@@ -14,10 +14,11 @@ body {
 }
 
 header {
-    background-image: linear-gradient(to bottom, #21362F, #384626);
+    background-color: #030303;
     max-width: 1250px;
     margin: auto;
     height: 100px;
+    border: white 1px solid;
 }
 
 header > h1{
@@ -50,11 +51,11 @@ header > nav > button {
     bottom: 7px;
     height: 30px;
     width: 90px;
-    background-color: #38462e;
+    background-color: black;
 }
 
 header > nav > button:hover{
-    background-color: #38462edf;
+    background-color: rgba(0, 0, 0, 0.438);
     cursor: pointer;
 }
 
@@ -76,7 +77,7 @@ header > nav > ul > li {
 }
 
 main{
-    background-image: linear-gradient(to bottom,#384626 40%, white);
+    background-image: linear-gradient(to bottom, #030303 10% , white);
 }
 
 main  > section{
@@ -112,39 +113,74 @@ main > section > .caixaInf > p{
 .categoria{
     background-color: white;
     margin: auto;
+    margin-top: 50px;
     width: 1300px;
     height: 50px;
-    border-radius: 8px 8px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
 }
 
 .categoria > h3{
     position: relative;
     top: 10px;
-    left: 10px;
+    left: 25px;
     font-size: 25px;
 }
 
 .produtos{
     background-color: white;
     min-width: 1300px;
-    height: 440px;
+    height: 500px;
     margin-bottom: 50px;
     overflow-x: auto;
     overflow-y: hidden;
+    box-shadow: 3px 2px 10px 0px rgba(0, 0, 0, 0.155);
+    border-radius: 0px 0px 20px 20px;
 }
 
 .produto{
     position: relative;
-    background-color: wheat;
-    height: 350px;
-    margin: 30px 5px 0px 15px ;
+    background-color: rgb(248, 248, 248);
+    height: 440px;
+    margin: 15px 5px 0px 15px ;
     min-width: 300px;
+}
+
+.imagemProduto{
+    position: relative;
+    top: 50px;
+    display: flex;
+    margin: auto;
+}
+
+.descricaoProduto{
+    position: relative;
+    top: 55px;
+    left: 48px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.preco{
+    position: relative;
+    top: 75px;
+    left: 50px;
+    font-size: 25px;
+    letter-spacing: 0.1em;
+}
+
+.freteG{
+    position: relative;
+    top: 95px;
+    left: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(4, 179, 4);
 }
 
 footer{
     max-width: 1250px;
     margin: auto;
-    background-color: #DBD092;
+    background-color: rgb(193, 193, 193);
     text-align: center;
 }
 
