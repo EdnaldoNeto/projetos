@@ -19,7 +19,7 @@ for(let i = 0; i < DivSection.length; i++){
 for(let i = 0; i < divProduto.length; i++){
     divProduto[i].addEventListener('mouseover', () => {
         document.getElementsByClassName('descricaoProduto')[i].style.color = 'SlateBlue'
-        divProduto[i].style.border = '2px solid black'
+        divProduto[i].style.border = '1px solid black'
     })
     divProduto[i].addEventListener('mouseleave', () => {
         document.getElementsByClassName('descricaoProduto')[i].style.color = 'black'
