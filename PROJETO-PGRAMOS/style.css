@@ -7,7 +7,6 @@
 
 html {
     overflow-x: hidden;
-    width: 100%;
 }
 
 body {
@@ -18,15 +17,17 @@ header {
     background-color: #030303;
     max-width: 1250px;
     margin: auto;
-    height: 100px;
+    height: 80px;
 }
 
 header > h1{
     position: relative;
-    top: 30px;
+    top: 25px;
     left: 40px;
     color: white;
     display: flex;
+    font-weight: 500;
+    font-size: 25px;
 }
 
 nav{
@@ -37,18 +38,18 @@ nav{
 
 #pesquisar{
     position: relative;
-    right: 100px;
-    bottom: 13px;
-    height: 40px;
-    width: 500px;
-    font-size: 16px;
+    right:150px;
+    bottom: 10px;
+    height: 35px;
+    width: 450px;
+    font-size: 14px;
     text-indent: 20px;
 }
 
 header > nav > button {
     position: relative;
-    right: 200px;
-    bottom: 7px;
+    right: 245px;
+    bottom: 5px;
     height: 30px;
     width: 90px;
     background-color: black;
@@ -63,6 +64,7 @@ header > nav > ul {
     position: relative;
     right: 100px;
     display: flex;
+    bottom: 1px;
 }
 
 header > nav > ul > li {
@@ -71,14 +73,14 @@ header > nav > ul > li {
     margin-right: 50px;
     color: white;
     list-style: none;
-    font-size: 18px;
+    font-size: 16px;
     padding: 10px;
 }
 
 header > nav > ul > li:hover {
     border: 1px solid white;
     cursor: pointer;
-    font-size: 19px;
+    font-size: 17px;
     transition: all 0.1s;
 }
 
@@ -145,14 +147,12 @@ main > section > .caixaInf > p{
     font-weight: 700;
 }
 
-
-
 .categoria{
     background-color: rgb(248, 248, 248);
     border: 1px solid white;
     margin: auto;
     margin-top: 50px;
-    width: 1300px;
+    width: 1100px;
     height: 50px;
     border-radius: 20px 20px 0px 0px;
 }
@@ -161,13 +161,14 @@ main > section > .caixaInf > p{
     position: relative;
     top: 10px;
     left: 25px;
-    font-size: 25px;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .produtos{
     background-color: rgb(248, 248, 248);
-    min-width: 1300px;
-    height: 480px;
+    min-width: 1100px;
+    height: 430px;
     margin-bottom: 50px;
     overflow-x: auto;
     box-shadow: 3px 2px 10px 0px rgba(0, 0, 0, 0.155);
@@ -180,7 +181,7 @@ main > section > .caixaInf > p{
 .btnDireita{
     position: relative;
     top: 25px;
-    right: 760px;
+    right: 280px;
     height: 60px;
     min-width: 60px;
     border-radius: 50%;
@@ -214,7 +215,7 @@ main > section > .caixaInf > p{
     border: none;
     font-size: 23px;
     font-weight: 900;
-    right: 1290px;
+    right: 50px;
     display: none;
 }
 
@@ -228,9 +229,9 @@ main > section > .caixaInf > p{
 .produto{
     background-color: white;
     position: relative;
-    height: 440px;
-    margin: 15px 15px 0px 15px ;
-    min-width: 300px;
+    height:390px;
+    margin: 15px 8px 0px 10px ;
+    min-width: 200px;
 }
 
 .produto:hover{
@@ -242,28 +243,38 @@ main > section > .caixaInf > p{
     top: 50px;
     display: flex;
     margin: auto;
+    width: 200px;
+}
+
+.imgEletrodomesticos{
+    position: relative;
+    top: 50px;
+    display: flex;
+    margin: auto;
+    width: 100px;
 }
 
 .descricaoProduto{
     position: relative;
-    top: 55px;
-    left: 48px;
-    font-size: 17px;
+    top: 65px;
+    left: 20px;
+    font-size: 13px;
     font-weight: 500;
 }
 
 .preco{
     position: relative;
     top: 75px;
-    left: 50px;
-    font-size: 25px;
+    left: 24px;
+    font-size: 20px;
     letter-spacing: 0.1em;
+    font-weight: 500;
 }
 
 .freteG{
     position: relative;
-    top: 95px;
-    left: 50px;
+    top: 90px;
+    left: 24px;
     font-size: 20px;
     font-weight: 400;
     color: rgb(4, 179, 4);
@@ -278,6 +289,12 @@ footer{
 
 footer > p{
     padding: 10px;
-    font-weight: bolder;
-    font-size: 20px;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: rgb(41, 41, 120);
+    font-weight: 500;
 }
