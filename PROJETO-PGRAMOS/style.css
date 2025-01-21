@@ -5,19 +5,16 @@
     padding: 0px;
 }
 
-html {
-    overflow-x: hidden;
-}
-
 body {
     background-color: black;
+    overflow-x: hidden
 }
 
 header {
     background-color: #030303;
     max-width: 1250px;
-    margin: auto;
     height: 80px;
+    margin: auto;
 }
 
 header > h1{
@@ -86,7 +83,7 @@ header > nav > ul > li:hover {
 }
 
 main{
-    background-color: rgb(248, 248, 248);
+    background-color: rgb(234, 234, 234);
     border: white 1px solid;
 }
 
@@ -147,6 +144,14 @@ main > section > .caixaInf > p{
     margin-top: 28px;
     font-weight: 700;
 }
+#Categorias{
+    max-width: 1100px;
+    height: 350px;
+    margin-bottom: 50px;
+    background-color: tomato;
+    margin: auto;
+}
+
 
 .categoria{
     background-color: rgb(248, 248, 248);
@@ -169,7 +174,7 @@ main > section > .caixaInf > p{
 .produtos{
     background-color:white;
     min-width: 1100px;
-    height: 405px;
+    height: 380px;
     margin-bottom: 50px;
     overflow-x: auto;
     box-shadow: 3px 2px 10px 0px rgba(0, 0, 0, 0.155);
@@ -288,6 +293,21 @@ main > section > .caixaInf > p{
     font-size: 20px;
     font-weight: 400;
     color: #00A650;
+}
+
+.container{
+    min-width: 1100px;
+    height: 405px;
+    margin-bottom: 50px;
+}
+
+.box{
+    position: relative;
+    width: 450px;
+    margin: auto;
+    height: 320px;
+    background-color: white;
+    border-radius: 2px;
 }
 
 footer{
